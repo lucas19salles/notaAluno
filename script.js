@@ -7,11 +7,11 @@ function media() {
 
   if (media >= 8) {
     alert(
-      `Uau! O Aluno ${nome} foi aprovado com Certeza e a sua média foi ${media}`
+      `Uau! O Aluno(a) ${nome} foi aprovado com Certeza e a sua média foi ${media}`
     );
   } else if (media > 5 && media <= 7) {
-    alert(`Parabens, ${nome} aprovado! Media é: ${media}`);
+    alert(`Parabens, O Aluno(a) ${nome} aprovado! Media é: ${media}`);
   } else {
-    alert(`Reprovado! ${nome} a sua media foi: ${media}`);
+    alert(`Reprovado!O Aluno(a) ${nome} a sua media foi: ${media}`);
   }
 }
